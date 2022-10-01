@@ -1,0 +1,1 @@
+clear && tailscale up && apt install default-jre -y && apt install openjdk-16-jre-headless openjdk-17-jre-headless -y && clear && wget https://piston-data.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar && clear && java -jar server.jar
